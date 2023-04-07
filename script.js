@@ -1,6 +1,4 @@
 let cash = 10;
-// var cash2 = 20;
-
 const cash3 = "35";
 
 // Tipo string
@@ -9,14 +7,11 @@ const desconto = "15%";
 
 // Tipo Number
 const number = 0.5 / 12;
-// console.log(100 % 9);
 
-// Tipo Array - lista
+// Tipo Array
 const lista = [10, 20, "string", [2, 3, 4], { cor: "Marrom" }];
-// Voltar aqui para acessar os index
 
-// Tipo Object - Objeto
-// Par chave valor
+// Tipo Object
 const cadeira = {
   cor: "Preto",
   preco: 400,
@@ -26,35 +21,15 @@ const cadeira = {
   },
 };
 
-// Desestruturação
-// const cor = cadeira.cor
+// Desestruturação de objetos
 const lojas = cadeira.lojas;
-// const preco = cadeira.preco
-// const script = cadeira.script;
 const { cor, preco } = cadeira;
+
+// Adicionando novos elementos no objeto
 cadeira.desconto = "15%";
-// console.log(preco, "preco");
 
-const teste = [
-  {
-    nome: "Vitor",
-    nota: 10,
-  },
-  {
-    nome: "Erika",
-    nota: 10,
-  },
-  {
-    nome: "Joaquim",
-    nota: 7,
-  },
-];
-
-const aluno = teste[1];
-const { nota, nome } = aluno;
-// console.log("A nota do " + nome + " é igual a " + nota);
 //Template String
-// console.log(`A nota do ${nome} é igual a ${nota}`);
+console.log(`A nota do ${nome} é igual a ${nota}`);
 
 // Tipo boolean
 const rain = true;
@@ -67,11 +42,11 @@ const rain = true;
 // null
 // NaN
 
-const desconto2 = Boolean(NaN);
-
 const price = 100;
 const percent = 12;
 const secondPercent = true;
+
+// Condicionais
 
 if (percent == 0) {
   console.log("Não temos desconto para essa cadeira");

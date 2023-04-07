@@ -120,6 +120,30 @@ if (percent == 0) {
 
 #### 01
 
-aui
+Faça um script que leia duas notas de um aluno. E calcule se o aluno foi aprovado. Sabendo que a média para ser aprovado é 7
 
-### 02
+#### 02
+
+Armazene o salário do usuário em uma variável, e faça as seguintes condições.
+
+Se o salário for até R$1000
+
+- Imprima no console (Você merece um aumento de 40%)
+- Calcule o novo salário
+
+Se o salário esta entre R$1000 e R$ 2000
+
+- Imprima no console (Você merece uma aumento de 25%)
+- Calcule o novo salário
+
+Se o salário for maior do que R$ 2000
+
+- Imprima no console (Você deve doar se salário para o estagiário)
+- Calcule o salário com um desconto de 15%
+
+Para todas as opções, além de imprimir o que foi solicitado, você também vai adicionar no console:
+
+- Salário antes do reajuste: (resultado)
+- Percentual adicionado ou descontado: (resultado)
+- Valor do aumento ou desconto: (resultado)
+- Novo salário: (resultado)
