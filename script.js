@@ -83,8 +83,3 @@ if (percent == 0) {
 } else {
   console.log(`Temos um desconto de ${percent}%`);
 }
-
-// Armazenar o salário de alguém em uma variável
-// Salário é até 1000 reais - Console.log
-// Salário esta entre 1000 e 2000 - Console.log
-// Salário maior do que 2000 - Console.log
