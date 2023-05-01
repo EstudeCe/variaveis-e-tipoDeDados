@@ -147,3 +147,7 @@ Para todas as opções, além de imprimir o que foi solicitado, você também va
 - Percentual adicionado ou descontado: (resultado)
 - Valor do aumento ou desconto: (resultado)
 - Novo salário: (resultado)
+
+#### 03
+
+Crie uma variável chamada idadeUsuario e atribua a ela um valor numérico que representa a idade do usuário. Em seguida, crie uma estrutura condicional que exiba uma mensagem diferente dependendo da idade do usuário. Por exemplo, se o usuário tiver menos de 18 anos, exiba a mensagem "Você é menor de idade". Se o usuário tiver entre 18 e 64 anos, exiba a mensagem "Você é adulto". E se o usuário tiver 65 anos ou mais, exiba a mensagem "Você é idoso".
