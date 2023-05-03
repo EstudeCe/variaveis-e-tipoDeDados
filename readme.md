@@ -72,6 +72,35 @@ const cadeira = {
 };
 ```
 
+### Desestruturação de elementos
+
+Podemos obter os valores de um objeto ou de um array utilizando a desestruturação. Basicamente a desestruturação vai criar uma variável com o nome que solicitarmos, e atribuir a ela o valor correspondendente do objeto ou do array.
+
+```
+const fruits = ["Banana", "Maçã"]
+const [banana, maca] = fruits
+console.log(banana) // "Banana"
+console.log(maca) // "Maçã"
+```
+
+```
+const cadeira = {
+  cor: "Marrom",
+  tamanho: "Grande",
+  preco: 100,
+  script: {
+    linguagem: "JavaScript",
+  },
+  lojas: ["Magazine luiza", "Kabum"],
+};
+
+const {cor, tamanho, preco} = cadeira
+
+console.log(cor) // "Marrom"
+console.log(tamanho) // "Grande"
+console.log(preco) // 100
+```
+
 **Tipo Boolean**
 
 Os booleanos são variáveis utilizadas nas operações lógicas, e temos apenas duas: true e false. Podemos converter outros tipos de variáveis para o tipo boolean utilizando o operador Boolean.
